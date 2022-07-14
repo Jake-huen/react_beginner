@@ -6,7 +6,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/react_beginner/movie/:id" element={<Detail />}></Route>
+        <Route path="/movie/:id" element={<Detail />}></Route>
         <Route path="/react_beginner" element={<Home />}></Route>
       </Routes>
     </Router>
